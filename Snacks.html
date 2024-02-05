@@ -1,0 +1,347 @@
+<html>
+     <head>
+    <title></title>
+         <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+         nav{
+            text-decoration: none;
+        }
+        .navbar-inverse{
+           background-color:black;
+            padding-right: 10px;
+            padding-left: 10px;
+            position: fixed;
+            top:0;
+        }
+        .navbar-brand{
+            font-size: 30px;
+            font-weight: 600;
+            font-family: Times New Roman;
+            margin-right: 80px;
+            margin-left:10px;
+            text-align: center;
+            text-decoration: none;
+        }
+       ul li{
+            list-style: none; display: inline-block;
+        }
+        li a{
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            margin-right: 40px;
+        }
+        button{
+            background-color: white;
+            margin-left: 20px;
+            border-radius: 10px;
+            padding: 10px;
+            width: 90px;
+            text-align: center
+        }
+        button a{
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+            text-decoration: none;
+            
+        }
+        ul li img{
+            font-size: 30px;
+            background-color: black;
+        }
+        .header{
+            align-items: center;
+            background-color: red;
+            width:100%;
+            height:45px;
+        }
+        .search-items{
+            display: flex;
+            align-content: center;
+        }
+        .search-button{
+          padding:8px 15px;
+            font-size: 20px;
+            background-color: #007BFF; 
+            color: #fff;
+             border: none;
+            cursor: pointer;
+        }
+        .search-item{
+            margin-right: 10px;
+      font-size: 20px;
+           
+        
+        }
+        .search-textbox{
+            padding: 8px;
+           font-size: 16px;
+        }
+       #location{
+            margin-top: 40px;
+            background-color: black;
+            padding: 1px;
+        }
+        .menu li a{
+            line-height: 2;
+           font-size: 15px;
+          text-decoration: none;
+            float: left;
+        }
+        .info h3{
+            color: white;
+            font-weight: bold;
+           
+        }
+        .fotter{
+           display: flex;
+           justify-content: space-between;
+            width: 100%;
+        
+        }   
+        .menu{
+            list-style: none;
+            padding:2px;
+            float: left;
+        }
+        .banner img{
+            margin-left: 20px;
+           margin: 10px;
+            height: 200px;
+                width: 25%;
+        }
+        section{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 20px;
+            
+        }
+        section img{
+            height: 250px;
+            width: 100%;
+            margin: 2px;
+            padding: 10px
+            
+        }
+        section h2{
+            color: darkgoldenrod;
+        }
+        .original-price{
+            text-decoration: line-through;
+            color:#888; 
+            text-align: center;
+            
+        }
+        .discount-price{
+            font-weight: bold;
+            color: yellow;
+        }
+        .btn button{
+            width: 90px;
+            height: 40px;
+            margin-left: 2px;
+            
+            }
+        .btn .bts{
+            background-color:dimgrey;
+            text-align: center;
+            color: floralwhite;
+            
+        }
+           
+           
+            
+     
+    </style>
+    <body>
+        
+     <nav class="navbar-inverse" style="position: sticky;top:0; z-index: 1000px">
+            <div class=navbar-header>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Hot Chips</a>
+            </div>
+            <div class="navbar-collapse collapse" id="mynavbar">
+                <ul class="nav navbar-nav">
+                 <li><a href="Home.html"> Home</a></li>
+              <li><a href="Vegtables.html"> vegatables</a></li>
+                <li><a href="Fruits.html"> fruits</a></li>
+                  <li><a href="Snacks.html"> Snacks</a></li>
+                  <li><a href="Shopping.html"> Shopping</a></li>
+                <li><a href="Cart.html">Add Cart<img src="cart1.jpg" height="22px" width=22px;></a></li>
+                <button><a href="Login.html">Login</a></button>
+                <button><a href="Logout.html">logout</a></button>
+                   
+                </ul></div>
+         </nav>
+    <div class="header">
+        <center>
+        <div class="search-item">
+           <input class="search-textbox" type="text" placeholder="search items">
+           <button class="search-button">
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </button>
+            </div>
+            </center>
+    </div>
+   
+    <div class="he">
+        <center>
+        <img src="bigg%20sale.jpg" height="200px;" width="80%" ><br>
+            </center>
+        <p style="text-align: justify; margin: 20px;">Order food online from FreshMenu. Choose from a wide range of cuisines and categories for food delivery. Get fresh home delivered food at your doorstep from ..Order food online from FreshMenu. Choose from a wide range of cuisines and categories for food delivery. Get fresh home delivered food at your doorstep from ..</p>
+    </div>
+        <div class="head1">
+            <center>
+                <button type="button" style="border-color: chocolate; color: blueviolet; background-color: cadetblue;"><a href="login.html">login</a></button><br>
+                  <h1 style="color: green; margin: 20px;"><b><i>Snacks</i></b></h1><br>
+                
+            </center>
+          
+        </div>
+        <section id="snacks">
+          
+            <div class="btn">
+                <img src="snacks1.jpg" alt="product1">
+                 <h2>prdoduct1</h2>
+                <p>description:snacks</p>
+                <span class="original-price">30/200gm</span>
+                  <strong></strong>26%<br>
+                 <span class="discounted-price">25/200gm</span><br>
+                   <button class="bts" >Add to cart</button>
+            </div>
+            <div class="btn">
+                <img src="snacks2.jpg" alt="product1">
+               <h2>prdoduct2</h2>
+                <p>description:Tomato Lays</p>
+                <span class="original-price">24/100gm</span>
+                  <strong></strong>15%<br>
+                 <span class="discounted-price">23/100gm</span><br>
+                   <button class="bts" >Add to cart</button>
+            </div>
+             <div class="btn">
+                <img src="snacks3.jpg" alt="product1">
+               <h2>prdoduct3</h2>
+                <p>description:potato chips</p>
+                <span class="original-price">33/200gms</span>
+                  <strong></strong>25%<br>
+                 <span class="discounted-price">30/200gms</span><br>
+                   <button class="bts" >Add to cart</button>
+            </div>
+            <!--
+           <div class="btn">
+                <img src="s4.jpg" alt="product1">
+                <h2>prdoduct4</h2>
+                <p>description:gdggd</p>
+                <span class="original-price">53/250gms</span>
+                  <strong></strong>25%<br>
+                 <span class="discounted-price">43/250gms</span><br>
+                   <button class="bts" >Add to cart</button>
+            </div>
+           <div class="btn">
+                <img src="s5.jpg" alt="product1">
+                 <h2>prdoduct5</h2>
+                <p>description:dhjfdh</p>
+                <span class="original-price">34/150ml</span>
+                  <strong></strong>50%<br>
+                 <span class="discounted-price">20/150ml</span><br>
+                  <button class="bts" >Add to cart</button>
+                
+            </div>
+            <div class="btn">
+                <img src="s6.jpg" alt="product1">
+                
+                <h2>prdoduct6</h2>
+                <p>description :hfhhh</p>
+                <span class="original-price">43/250ml</span>
+                  <strong></strong>29%<br>
+                 <span class="discounted-price">25/250ml</span><br>
+                     <button class="bts" >Add to cart</button>
+                    </div>
+            <div class="btn">
+                <img src="s7.jpg" alt="product1">
+                
+                <h2>prdoduct7</h2>
+                <p>description :onion</p>
+                <span class="original-price">20/180gms</span>
+                  <strong></strong>38%<br>
+                 <span class="discounted-price">12/180gms</span><br>
+                     <button class="bts" >Add to cart</button>
+                    </div>
+-->
+           
+            
+            </section>
+            <div class="lgout">
+                <center>
+                    <button type="button" style="width: 100px; border-color: chocolate; color: blueviolet; background-color: cadetblue; "><a href="cart.html">go to cart</a></button>
+                    <button type="button" style="width: 100px; border-color: chocolate; color: blueviolet; background-color: cadetblue;"><a href="logout.html">logout</a></button>
+                </center>
+            </div>
+            
+           
+            
+            
+       
+        
+    <div id="location">
+        <div class="container">
+        <div class="fotter">
+            <div class="info">
+            <h3 class="heading">Account details</h3>
+                <ul class="menu">
+                <li><a href="Home.html">Home</a></li><br>
+                 <li><a href="#">About</a></li><br>
+                 <li><a href="#">Search</a></li><br>
+                 <li><a href="#">Cart</a></li><br>
+                 <li><a href="#">Checkout</a></li><br>
+                </ul>
+            </div>
+            <div class="info">
+                <h3 class="heading">Account details</h3>
+            <ul class="menu">
+                 <li><a href="#">My Profile</a></li><br>
+                 <li><a href="#">Change Password</a></li><br>
+                 <li><a href="#">orders</a></li><br>
+                 <li><a href="#">Cart items</a></li><br>
+                 <li><a href="#">Cashback</a></li><br>
+                </ul>
+            </div>
+            <div class="info">
+            <h3 class="heading">Quick link</h3>
+                <ul class="menu">
+                 <li><a href="#">login</a></li><br>
+                 <li><a href="#">Faq</a></li><br>
+                 <li><a href="#">Contact us</a></li><br>
+                 <li><a href="#">Download App</a></li><br>
+                 <li><a href="#">Refer & Earn</a></li><br></ul>
+            </div>
+            <div class="info">
+            <h3 class="heading">GET IN TOUCH</h3>
+                <ul class="get-in-touch">
+                     <li><a href="#">Email:foodcourt@gamil.com</a></li><br>
+                     <li><a href="#">Mobile:9949335729</a></li><br>
+                     <li><a href="#">Website:www.foodcourt.com</a></li>
+                </ul>
+                <ul class="social-media">
+                    <li><a href="#" class="fa fa-whatsapp"></a></li>
+                     <li><a href="#" class="fa fa-facebook"></a></li>
+                     <li><a href="#" class="fa fa-twitter"></a></li>
+                </ul>
+            </div>
+            </div>
+    </div></div>
+    </body>
+</html>
